@@ -69,8 +69,13 @@ li a:hover{
 .logo1{ 
     filter: grayscale(100%);
     transition:0.4s;
+    display: inline-block;
 }
 
 .logo1:hover{ 
     filter: grayscale(0%);
+}
+
+.logo-list{ 
+    display: flexbox;
 }
