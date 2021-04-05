@@ -64,3 +64,13 @@ li a:hover{
     font-size: 30px;
 }
 
+/* logo Hover effect */
+
+.logo1{ 
+    filter: grayscale(100%);
+    transition:0.4s;
+}
+
+.logo1:hover{ 
+    filter: grayscale(0%);
+}
