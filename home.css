@@ -27,3 +27,23 @@ li a{
     color: black;
 }
 
+.logo{ 
+    float: left;
+    display: block;
+    position: absolute;
+    left:10px;
+}
+
+
+/* Image cover */
+
+.img{ 
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/Wallpaper\ Web\ 1.jpg);
+    background-size: cover;
+    background-position:center ;
+    position: relative;
+    overflow: hidden;
+}
+
