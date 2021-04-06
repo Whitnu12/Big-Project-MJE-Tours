@@ -29,6 +29,7 @@ li a{
 
 li a:hover{ 
     font-weight: 500;
+    transition: 0.7s;
 }
 .logo{ 
     float: left;
@@ -78,5 +79,32 @@ li a:hover{
 }
 
 .logo-list{ 
-    margin-left: 30%;
+    display: flexbox;
+    padding-top: 80px;
+    margin-left: 8%;
+}
+
+
+/* content text */
+
+
+.penjelasan{ 
+    margin-top: 150px;
+    margin-left: 8%;
+}
+
+.penjelasan p{
+    width: 40%; 
+}
+
+.penjelasan h1{ 
+    font-size: 80px;
+}
+
+.penjelasan img{ 
+  float: right;
+  right: 8%;
+  width: 40vw;
+  top: -100px;
+  position: relative;
 }
